@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wakavuti Blessed Medical Mental Health | Wellness & Rehabilitation</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+<div class="nav-logo">🩺 Wakavuti <span>Blessed</span></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="home.html" class="active" onclick="closeMenu()">Home</a></li>
+    <li><a href="services.html" onclick="closeMenu()">Services</a></li>
+    <li><a href="counselling.html" onclick="closeMenu()">Counselling</a></li>
+    <li><a href="labtests.html" onclick="closeMenu()">Lab Tests</a></li>
+    <li><a href="about.html" onclick="closeMenu()">About</a></li>
+    <li><a href="contact.html" class="nav-cta" onclick="closeMenu()">Contact Us</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════ HOME PAGE ═══════════════════════════════ -->
+<div id="page-home" class="page">
+  <div class="slider-wrap">
+    <div class="slide active"><div class="slide-overlay"></div></div>
+    <div class="slide"><div class="slide-overlay"></div></div>
+    <div class="slide"><div class="slide-overlay"></div></div>
+    <div class="slide"><div class="slide-overlay"></div></div>
+
+    <div class="hero-content">
+      <div class="hero-eyebrow">✦ Mental Health & Wellness Centre</div>
+      <h1>Healing minds.<br><em>Restoring lives.</em><br>With compassion.</h1>
+      <p class="hero-sub">Wakavuti Blessed Medical Mental Health Wellness and Rehabilitation Limited — comprehensive psychiatric, counselling, and rehabilitation services.</p>
+      <div class="hero-actions">
+        <a href="contact.html" class="btn-primary">📞 Get in Touch</a>
+        <a href="services.html" class="btn-ghost">Our Services →</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><strong>30+</strong><span>Services Offered</span></div>
+        <div class="hero-stat"><strong>3</strong><span>Care Categories</span></div>
+        <div class="hero-stat"><strong>24/7</strong><span>Support</span></div>
+      </div>
+    </div>
+
+    <div class="slider-dots">
+      <button class="dot active" onclick="goSlide(0)"></button>
+      <button class="dot" onclick="goSlide(1)"></button>
+      <button class="dot" onclick="goSlide(2)"></button>
+      <button class="dot" onclick="goSlide(3)"></button>
+    </div>
+  </div>
+</div>
+<div class="page-divider"></div>
+
+<!-- FOOTER -->
+<footer>
+<div class="footer-logo">🩺 Wakavuti <span>Blessed</span> Medical Mental Health</div>
+  <p>Wellness and Rehabilitation Limited · © 2025 · All rights reserved</p>
+  <p style="margin-top:0.4rem;">📞 0722 908 870 &nbsp;|&nbsp; ✉ samuelgatere941@gmail.com</p>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+

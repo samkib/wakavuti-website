@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wakavuti Blessed Medical Mental Health | Contact</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+<div class="nav-logo">🩺 Wakavuti <span>Blessed</span></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="home.html" onclick="closeMenu()">Home</a></li>
+    <li><a href="services.html" onclick="closeMenu()">Services</a></li>
+    <li><a href="counselling.html" onclick="closeMenu()">Counselling</a></li>
+    <li><a href="labtests.html" onclick="closeMenu()">Lab Tests</a></li>
+    <li><a href="about.html" onclick="closeMenu()">About</a></li>
+    <li><a href="contact.html" class="nav-cta active" onclick="closeMenu()">Contact Us</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════ CONTACT PAGE ═══════════════════════════════ -->
+<div id="page-contact" class="page page-section" style="background: var(--warm);">
+  <div class="section-label">Get in Touch</div>
+  <h2>We're here when you need us</h2>
+  <p class="section-intro">Call or email us below. Send us a quick message and we’ll follow up with you directly.</p>
+
+
+  <div class="contact-layout">
+    <!-- LEFT: Contact Details -->
+    <div class="contact-info">
+      <div class="contact-item">
+        <div class="contact-icon">📞</div>
+        <div>
+          <h4>Phone</h4>
+          <a href="tel:0722908870">0722 908 870</a>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">✉️</div>
+        <div>
+          <h4>Email</h4>
+<a href="mailto:samuelgatere941@gmail.com">samuelgatere941@gmail.com</a>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">🕐</div>
+        <div>
+          <h4>Hours</h4>
+          <p>Monday – Saturday: 8am – 6pm</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">🏥</div>
+        <div>
+          <h4>Care Options</h4>
+          <p>Inpatient · Outpatient · Residential</p>
+        </div>
+      </div>
+
+      <!-- Quick contact form -->
+      <div style="background:var(--white);border-radius:var(--radius);padding:1.4rem;border-left:4px solid var(--gold);">
+        <h4 style="font-size:0.85rem;font-weight:600;text-transform:uppercase;letter-spacing:0.06em;color:var(--muted);margin-bottom:0.8rem;">Quick Message</h4>
+        <div style="display:flex;flex-direction:column;gap:0.7rem;">
+          <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden"
+                   name="access_key"
+                   value="8c2efb50-bf30-4150-82a8-ba477d6c42f6">
+
+            <input type="hidden"
+                   name="subject"
+                   value="New Contact Form - Wakavuti Blessed">
+
+<input type="hidden" name="redirect" value="thank-you.html">
+
+
+
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              required
+              style="padding:0.7rem 1rem;border:2px solid var(--ice);border-radius:8px;font-family:Inter,sans-serif;font-size:0.9rem;outline:none;width:100%;margin-bottom:0.7rem;">
+
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+              style="padding:0.7rem 1rem;border:2px solid var(--ice);border-radius:8px;font-family:Inter,sans-serif;font-size:0.9rem;outline:none;width:100%;margin-bottom:0.7rem;">
+
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Phone Number"
+              style="padding:0.7rem 1rem;border:2px solid var(--ice);border-radius:8px;font-family:Inter,sans-serif;font-size:0.9rem;outline:none;width:100%;margin-bottom:0.7rem;">
+
+            <textarea
+              name="message"
+              rows="4"
+              placeholder="Your Message"
+              required
+              style="padding:0.7rem 1rem;border:2px solid var(--ice);border-radius:8px;font-family:Inter,sans-serif;font-size:0.9rem;outline:none;resize:vertical;width:100%;margin-bottom:0.7rem;"></textarea>
+
+            <button type="submit" style="background:var(--navy);color:white;border:none;border-radius:50px;padding:0.8rem 1.5rem;font-family:Inter,sans-serif;font-weight:600;font-size:0.9rem;cursor:pointer;transition:background 0.2s;" onmouseover="this.style.background='var(--sky)'" onmouseout="this.style.background='var(--navy)'">Send Message →</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- FOOTER -->
+<footer>
+<div class="footer-logo">🩺 Wakavuti <span>Blessed</span> Medical Mental Health</div>
+  <p>Wellness and Rehabilitation Limited · © 2025 · All rights reserved</p>
+  <p style="margin-top:0.4rem;">📞 0722 908 870 &nbsp;|&nbsp; ✉ samuelgatere941@gmail.com</p>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
